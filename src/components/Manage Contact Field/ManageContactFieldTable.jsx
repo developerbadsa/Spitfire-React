@@ -19,7 +19,7 @@ const TABLE_ROWS = [
 
 export function ManageContactFieldTable() {
    return (
-      <Card className='h-full w-[85%] overflow-hidden mx-auto'>
+      <Card className='h-full w-[85%] overflow-hidden mx-auto '>
          <div className=' text-end'><Button size="sm" className='bg-[#ed9034] py-3 mr-6 rounded-lg mt-4'>+ Create a Field</Button></div>
          <table className='w-full min-w-max table-auto text-left'>
             <thead>
