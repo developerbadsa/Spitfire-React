@@ -1,6 +1,6 @@
 import {DocumentIcon} from '@heroicons/react/24/solid';
 import {ArrowDownTrayIcon} from '@heroicons/react/24/outline';
-import {Card, IconButton, Typography} from '@material-tailwind/react';
+import {Button, Card, IconButton, Typography} from '@material-tailwind/react';
 
 const TABLE_HEAD = ['Name', 'Field Type', 'Action'];
 
@@ -11,15 +11,16 @@ const TABLE_ROWS = [
       Action: 'Default',
    },
    {
-    name: 'Dulufa',
-    FieldType: 'Hi Swqure',
-    Action: 'Default',
- },
+      name: 'Dulufa',
+      FieldType: 'Hi Swqure',
+      Action: 'Default',
+   },
 ];
 
 export function ManageContactFieldTable() {
    return (
-      <Card className='h-full w-[80%] overflow-scroll'>
+      <Card className='h-full w-[85%] overflow-hidden mx-auto'>
+         <div className=' text-end'><Button size="sm" className='bg-[#ed9034] py-3 mr-6 rounded-lg mt-4'>+ Create a Field</Button></div>
          <table className='w-full min-w-max table-auto text-left'>
             <thead>
                <tr>
