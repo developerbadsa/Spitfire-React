@@ -54,9 +54,8 @@ export function ManageContactFieldTable() {
                               color='blue-gray'
                               className='font-bold'>
 
+                              {Action === 'Default' ? name : <span className='text-[#ed9034]'>{name}</span>}
 
-                              {Action == 'Default' ? name
-                                 : `<span>${name}<span/>`}
                            </Typography>
                         </td>
                         <td className='p-4'>
