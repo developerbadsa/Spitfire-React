@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.select-form-option:hover{
+  background: #ed9034 !important;
+  border-radius: 0 !important;
+}
