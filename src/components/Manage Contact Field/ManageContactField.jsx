@@ -1,9 +1,10 @@
 import React from 'react';
+import { ManageContactFieldTable } from './ManageContactFieldTable';
 
 const ManageContactField = () => {
   return (
-    <div>
-      
+    <div className='container mx-auto'>
+      <ManageContactFieldTable></ManageContactFieldTable>
     </div>
   );
 };

@@ -6,7 +6,7 @@ const CreateContactField = () => {
    const [value, setValue] = useState('');
 
    return (
-      <div className='bg-white w-[700px] mx-auto my-24 py-7 px-8 flex flex-col gap-5'>
+      <div className='bg-white w-[650px] mx-auto my-24 py-7 px-8 flex flex-col gap-5'>
          <div className='flex justify-between text-2xl mb-8 mt-1'>
             <h4 className='text-2xl font-bold'>Create a Contact Field</h4>
             <div>
